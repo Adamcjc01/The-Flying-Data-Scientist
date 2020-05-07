@@ -1,0 +1,7 @@
+Imagine you’re an entrepreneur in London, UK. You’ve been in lockdown for weeks and you’ve identified that takeaways are doing well right now. So, using some of your savings you plan to open up a Chinese takeaway in London. 
+
+As an entrepreneur you know what’s important: location, location, location.
+
+So how do you pick a location that’s going to give a good return on investment? With the data of course!
+
+We will use the foursquare API to identify the neighbourhoods in London with the least amount of Chinese takeaway restaurants. This way we’ll have the least amount of competition.

@@ -1,0 +1,15 @@
+We will need several sets of data to complete our task
+
+First, to split London into neighborhoods we need a geo.json file de-lineating neighbourhoods. This will help us to make a chloropeth heat map of london with all the potential areas to put a takeaway:
+
+https://skgrange.github.io/www/data/london_boroughs.json
+
+We will also need the post codes of each region in London to break it down into smaller chunks:
+
+https://en.wikipedia.org/wiki/London_postal_district#List_of_London_postal_districts
+
+With each post code we can parse through the Geocoder to give use Lat-Long positions of all the districts. 
+
+We can then use the above lat longs in the Foursquare API using explore to give us all the venues in each neighbourhood by category – Chinese Takeaway.
+
+We can then count all the Chinese Takeaways in London, then use this number to count the percentage of all the london Takeways in each cluster.
